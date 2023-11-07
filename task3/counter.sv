@@ -20,6 +20,4 @@ always_ff @ (posedge clk)
     count2 <= count1 + 1 - del;
   end
 
-  //else     count <= count + {{WIDTH-1{1'b0}}, en};    //This is default increment by 1
-
 endmodule

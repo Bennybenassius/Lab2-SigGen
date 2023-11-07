@@ -41,6 +41,7 @@ int main(int argc, char **argv, char **env) {
       top->eval ();
     }
     
+    //Modify the increment value to the value of vbdValue, which changes the freq of sine wave
     if (vbdFlag()) {
         top->incr = vbdValue();
     }
